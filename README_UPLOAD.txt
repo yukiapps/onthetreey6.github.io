@@ -1,10 +1,10 @@
-yukiapps GitHub Pages v8
+yukiapps GitHub Pages v9
 
 今回の変更
-- サイト内の「Yuki Apps」「YUKI APPS」を「yukiapps」に統一
-- ヘッダーのロゴ文字、パンくず、説明文、ページタイトル、
-  フッター、サポート・プライバシー各ページもすべて変更
-- CSSファイル名をv8へ変更し、旧キャッシュを回避
+- 白いアプリアイコンが背景に埋もれないよう、
+  トップページと各アプリ詳細ページのアイコンに
+  薄い枠線と弱いシャドウを追加
+- CSSファイル名をv9へ変更し、旧キャッシュを回避
 
 アップロード方法
 1. ZIPを展開
@@ -12,8 +12,3 @@ yukiapps GitHub Pages v8
 3. GitHubリポジトリの最上位へ上書きアップロード
 4. ZIPそのものはアップロードしない
 5. 公開後にSafariを再読み込み
-
-未設定
-- App Storeの正式URL
-  index.html、daymark-steps.html、schedule-sync.html内の
-  href="#" を正式URLへ差し替えてください。
