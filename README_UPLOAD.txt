@@ -1,15 +1,21 @@
-Yuki Apps GitHub Pages v6
+Yuki Apps GitHub Pages v7
 
-修正内容：
-- 詳細ページ下部のスクリーンショットを遅延読み込みしない設定に変更
-- Safariの「プリント／PDFに保存」でも画像が空白にならないよう印刷用CSSを追加
-- CSSファイル名をv6へ変更し、旧キャッシュを回避
+今回の変更
+- 添付画像だけで成立するよう、アプリ詳細ページを再構成
+- Daymark StepsとScheduleSyncにウィジェット専用セクションを追加
+- 機能一覧を減らし、大きな画像と短い説明を中心に変更
+- トップページはアイコン・タイトル・短い説明だけのラインナップ構成
+- 画像、HTML、CSSをすべて同じ階層に配置
+- SafariのPDF保存でも画像が読み込まれる設定
 
-アップロード方法：
-1. このZIPを展開
+アップロード方法
+1. ZIPを展開
 2. 中のファイルをすべて選択
 3. GitHubリポジトリの最上位へ上書きアップロード
 4. ZIPそのものはアップロードしない
 5. 公開後にSafariを再読み込み
 
-画像、HTML、CSSはすべて同じ階層にあります。
+未設定
+- App Storeの正式URL
+  index.html、daymark-steps.html、schedule-sync.html内の
+  href="#" を正式URLへ差し替えてください。
