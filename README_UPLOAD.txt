@@ -1,13 +1,20 @@
-Yuki Apps GitHub Pages用ファイル v4
+Yuki Apps GitHub Pages v5（画像をルート直下に配置した版）
 
-1. このフォルダの中身をGitHub Pagesのリポジトリ直下へアップロードしてください。
-2. 既存ファイルはすべて上書きしてください。
-3. CSSは yuki-apps-20260724-v4.css へ変更しているため、旧キャッシュの影響を受けにくくしています。
-4. assets/icons と assets/screenshots も必ず一緒にアップロードしてください。
-5. App Store URLは未設定です。index.html、daymark-steps.html、schedule-sync.html 内の TODO コメント箇所を正式URLへ差し替えてください。
+このZIPを展開し、中にあるファイルをすべてGitHubリポジトリの最上位へ上書きしてください。
 
-今回の変更
-- スクリーンショットから切り出した正式アイコンをトップ・詳細ページへ反映
-- 実際のアプリ画面をヒーローと画面紹介へ反映
-- 仮のCSSモック画面を実画像へ置換
-- 画像をWebPへ最適化
+重要：
+- ZIPそのものはアップロードしません。
+- assetsフォルダはありません。
+- HTML、CSS、PNG画像がすべて同じ階層にあります。
+- GitHub上でPNG画像のファイル名が見えることを確認してください。
+- 公開後、Safariでページを再読み込みしてください。
+
+主な画像：
+- daymark-steps-icon.png
+- schedule-sync-icon.png
+- daymark-today.png
+- daymark-flow.png
+- daymark-week.png
+- schedule-import.png
+- schedule-summary.png
+- schedule-flow.png
