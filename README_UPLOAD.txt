@@ -1,20 +1,15 @@
-Yuki Apps GitHub Pages v5（画像をルート直下に配置した版）
+Yuki Apps GitHub Pages v6
 
-このZIPを展開し、中にあるファイルをすべてGitHubリポジトリの最上位へ上書きしてください。
+修正内容：
+- 詳細ページ下部のスクリーンショットを遅延読み込みしない設定に変更
+- Safariの「プリント／PDFに保存」でも画像が空白にならないよう印刷用CSSを追加
+- CSSファイル名をv6へ変更し、旧キャッシュを回避
 
-重要：
-- ZIPそのものはアップロードしません。
-- assetsフォルダはありません。
-- HTML、CSS、PNG画像がすべて同じ階層にあります。
-- GitHub上でPNG画像のファイル名が見えることを確認してください。
-- 公開後、Safariでページを再読み込みしてください。
+アップロード方法：
+1. このZIPを展開
+2. 中のファイルをすべて選択
+3. GitHubリポジトリの最上位へ上書きアップロード
+4. ZIPそのものはアップロードしない
+5. 公開後にSafariを再読み込み
 
-主な画像：
-- daymark-steps-icon.png
-- schedule-sync-icon.png
-- daymark-today.png
-- daymark-flow.png
-- daymark-week.png
-- schedule-import.png
-- schedule-summary.png
-- schedule-flow.png
+画像、HTML、CSSはすべて同じ階層にあります。
