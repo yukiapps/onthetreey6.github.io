@@ -1,75 +1,93 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Yuki Appsが提供するアプリの公式サイトです。生活のリズムを、静かに見える形へ。">
-<title>Yuki Apps</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuki Appsが開発するアプリのラインナップとサポート情報をご案内します。">
+  <title>Yuki Apps｜アプリラインナップ</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="home">
-<header class="site-header"><div class="wrap nav"><a class="brand" href="index.html"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><span>Yuki Apps</span></a><nav class="nav-links" aria-label="メインナビゲーション"><a href="daymark-steps.html">Daymark Steps</a><a href="schedule-sync.html">ScheduleSync</a></nav></div></header>
-<main>
-  <section class="home-hero">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <div class="eyebrow">TIME, SPACE, RHYTHM.</div>
-        <h1>時間と余白を、<br>自分らしく見渡す。</h1>
-        <p class="lead">歩数も、予定も、暮らしの一部。数字を競うためではなく、自分の時間を落ち着いて見渡すためのアプリをつくっています。</p>
-        <div class="principle-row" aria-label="デザインテーマ">
-          <span>落ち着いて見る</span><span>流れをつかむ</span><span>余白を尊重する</span>
-        </div>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Yuki Apps トップページ">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Yuki Apps</span>
+      </a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a class="nav-apps" href="#apps">Apps</a>
+        <a class="nav-contact" href="contact.html">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-intro">
+      <div class="container">
+        <p class="eyebrow">Yuki Apps</p>
+        <h1>Apps</h1>
+        <p class="lead">Yuki Appsが開発するアプリをご紹介します。</p>
       </div>
-      <div class="rhythm-stage" aria-hidden="true">
-        <div class="orbit orbit-a"></div>
-        <div class="orbit orbit-b"></div>
-        <div class="rhythm-core"><span>24</span><small>HOURS</small></div>
-        <div class="time-track"><i></i><i></i><i></i><i></i><i></i></div>
-        <div class="pulse-dot p1"></div><div class="pulse-dot p2"></div><div class="pulse-dot p3"></div>
+    </section>
+
+    <section id="apps" class="apps-section" aria-label="アプリラインナップ">
+      <div class="container app-grid">
+        <article class="app-card">
+          <div class="app-card-top">
+            <div class="app-icon app-icon-daymark" role="img" aria-label="Daymark Stepsの仮アイコン">
+              <span class="petal p1"></span><span class="petal p2"></span><span class="petal p3"></span><span class="petal p4"></span><span class="petal p5"></span>
+            </div>
+            <span class="status-pill">公開準備中</span>
+          </div>
+          <p class="app-meta">iPhone・ヘルスケア</p>
+          <h2>Daymark Steps</h2>
+          <p>歩数と暮らしのリズムを振り返り、今日に小さな印を残すアプリ。</p>
+          <div class="app-card-actions">
+            <a class="btn btn-primary" href="daymark-steps.html">Daymark Stepsを見る</a>
+            <span class="btn btn-disabled" aria-label="App Store公開準備中">App Store準備中</span>
+          </div>
+        </article>
+
+        <article class="app-card">
+          <div class="app-card-top">
+            <div class="app-icon app-icon-schedule" role="img" aria-label="ScheduleSyncの仮アイコン">
+              <strong>744h</strong><small>THIS MONTH</small>
+              <div class="mini-bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+            </div>
+            <span class="status-pill">開発中</span>
+          </div>
+          <p class="app-meta">iPhone・iPad・カレンダー</p>
+          <h2>ScheduleSync</h2>
+          <p>予定を取り込み、仕事や生活の時間を自分で分類して見渡すアプリ。</p>
+          <div class="app-card-actions">
+            <a class="btn btn-primary" href="schedule-sync.html">ScheduleSyncを見る</a>
+            <span class="btn btn-disabled" aria-label="App Store公開準備中">App Store準備中</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-band">
+      <div class="container contact-band-inner">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2>アプリについてのお問い合わせ</h2>
+          <p>ご質問や不具合のご連絡は、共通のサポート窓口で受け付けています。</p>
+        </div>
+        <a class="btn btn-primary" href="contact.html">お問い合わせ方法を見る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2026 Yuki Apps</span>
+      <div class="footer-links">
+        <a href="mailto:support.yukiapps@gmail.com">support.yukiapps@gmail.com</a>
+        <a href="privacy.html">プライバシーポリシー</a>
       </div>
     </div>
-  </section>
-
-  <section class="wrap apps-section" aria-labelledby="apps-title">
-    <div class="section-heading"><div><div class="eyebrow">Apps</div><h2 id="apps-title">同じ思想、異なるリズム。</h2></div><p>共通するのは、管理するためではなく、自分の状態を落ち着いて眺めるためのデザインです。</p></div>
-    <div class="app-grid">
-      <article class="app-card daymark-card">
-        <div class="app-visual daymark-visual" aria-hidden="true">
-          <div class="day-ring r1"></div><div class="day-ring r2"></div><div class="day-ring r3"></div>
-          <div class="day-number"><strong>6,436</strong><span>STEPS / DAY</span></div>
-        </div>
-        <div class="app-content">
-          <div class="app-kicker"><span class="status">近日公開</span><span>身体と日々のリズム</span></div>
-          <h3>Daymark Steps</h3>
-          <p>歩数、天気、時間帯の流れから、一日の小さな頑張りを静かに振り返るアプリ。</p>
-          <div class="actions"><a class="button primary" href="daymark-steps.html">詳しく見る</a><a class="button quiet" href="daymark-steps-support.html">サポート</a></div>
-        </div>
-      </article>
-
-      <article class="app-card sync-card">
-        <div class="app-visual sync-visual" aria-hidden="true">
-          <div class="sync-total"><strong>744h</strong><span>THIS MONTH</span></div>
-          <div class="sync-track"><i></i><i></i><i></i><i></i><i></i></div>
-          <div class="sync-free"><span>FREE</span><strong>50%</strong></div>
-        </div>
-        <div class="app-content">
-          <div class="app-kicker"><span class="status">近日公開</span><span>時間と配分のリズム</span></div>
-          <h3>ScheduleSync</h3>
-          <p>予定を安全に取り込み、仕事・暮らし・余白のバランスを見渡すアプリ。</p>
-          <div class="actions"><a class="button primary" href="schedule-sync.html">詳しく見る</a><a class="button quiet" href="schedule-sync-support.html">サポート</a></div>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <section class="wrap values-section">
-    <div class="value-grid">
-      <article><span class="value-index">01</span><h3>静かな観測</h3><p>情報はしっかり見せながら、判断を急かさない。管理画面より、落ち着いて眺められる場所を目指します。</p></article>
-      <article><span class="value-index">02</span><h3>流れの可視化</h3><p>単発の数値ではなく、波、配分、ペースを見せる。変化の意味を、自分の感覚で読み取れます。</p></article>
-      <article><span class="value-index">03</span><h3>余白も情報</h3><p>歩かなかった時間も、予定の入っていない時間も大切なデータ。埋めることだけを正解にしません。</p></article>
-    </div>
-  </section>
-</main>
-<footer class="site-footer"><div class="wrap footer-row"><span>© 2026 Yuki Apps</span><div class="footer-links"><a href="mailto:support.yukiapps@gmail.com">support.yukiapps@gmail.com</a></div></div></footer>
+  </footer>
 </body>
 </html>
